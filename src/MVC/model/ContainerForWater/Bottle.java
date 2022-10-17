@@ -1,9 +1,9 @@
-package MVC;
+package MVC.model.ContainerForWater;
 
 
 public class Bottle extends ContainerForWater {
 
-    public Bottle(double capacity, String name) {
+    public Bottle(int capacity, String name) {
         super(capacity, name);
     }
 }

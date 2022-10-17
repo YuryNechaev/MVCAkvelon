@@ -1,20 +1,20 @@
-package MVC;
+package MVC.model.ContainerForWater;
 
 public abstract class ContainerForWater {
 
-    private double capacity;
+    private int capacity;
     private String name;
 
-    public ContainerForWater(double capacity, String name) {
+    public ContainerForWater(int capacity, String name) {
         this.capacity = capacity;
         this.name = name;
     }
 
-    public double getCapacity() {
+    public int getCapacity() {
         return capacity;
     }
 
-    public void setCapacity(double capacity) {
+    public void setCapacity(int capacity) {
         this.capacity = capacity;
     }
 

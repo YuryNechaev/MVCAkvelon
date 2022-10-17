@@ -1,4 +1,7 @@
-package MVC;
+package MVC.model;
+
+import MVC.model.Character.Drinking;
+import MVC.model.ContainerForWater.ContainerForWater;
 
 public class Model {
     private ContainerForWater container;

@@ -1,4 +1,4 @@
-package MVC;
+package MVC.model.Character;
 
 public abstract class Character {
     private String name;
